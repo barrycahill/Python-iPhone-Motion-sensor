@@ -21,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="streamer_working_1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="streamer_working_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/streamer_working_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="12" />
+              <folding>
+                <element signature="e#28#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict_based_streamer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dict_based_streamer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
@@ -94,6 +106,7 @@
         <option value="$PROJECT_DIR$/test_getIP.py" />
         <option value="$PROJECT_DIR$/streamer_working_2.py" />
         <option value="$PROJECT_DIR$/streamer_working_1.py" />
+        <option value="$PROJECT_DIR$/dict_based_streamer.py" />
       </list>
     </option>
   </component>
@@ -162,24 +175,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.streamer_working_1">
-    <configuration default="false" name="problem25" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="2015 streamer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem25.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.dict_based_streamer">
     <configuration default="false" name="streamer_working_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +240,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="2015 streamer" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/streamer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dict_based_streamer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2015 streamer" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_based_streamer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -401,19 +414,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.problem12" />
-      <item index="1" class="java.lang.String" itemvalue="Python.problem25" />
-      <item index="2" class="java.lang.String" itemvalue="Python.streamer_working_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_getIP" />
-      <item index="4" class="java.lang.String" itemvalue="Python.streamer_working_2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.streamer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.streamer_working_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_getIP" />
+      <item index="3" class="java.lang.String" itemvalue="Python.streamer_working_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.streamer" />
+      <item index="5" class="java.lang.String" itemvalue="Python.dict_based_streamer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.streamer_working_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.streamer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.streamer_working_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_getIP" />
-        <item index="4" class="java.lang.String" itemvalue="Python.problem25" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dict_based_streamer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.streamer_working_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.streamer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.streamer_working_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_getIP" />
       </list>
     </recent_temporary>
   </component>
@@ -480,13 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/touch_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plot_touch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -805,14 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/touch_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/streamer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -843,8 +841,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/streamer_working_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="e#28#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/touch_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict_based_streamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
           </folding>

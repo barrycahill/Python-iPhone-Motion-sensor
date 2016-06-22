@@ -15,24 +15,17 @@ sock = socket.socket(socket.AF_INET,   # Internet
                      socket.SOCK_DGRAM)    # UDP
 sock.bind((UDP_IP, UDP_PORT))
 
-
-while True:
+xdata = [0]
+while len(xdata) < 10:
     data, addr = sock.recvfrom(buffer_size)
     # print "received message:", data
     x_axis = struct.unpack('f', data[4:8])
-    y_axis = struct.unpack('f', data[8:12])
-    z_axis = struct.unpack('f', data[12:16])
     #data unpacked for the accelerometer
 
     x_axisrd = "%.2f" % x_axis
-    #y_axisrd = "%.2f" % y_axis
-    #z_axisrd = "%.2f" % z_axis
+    xdata.append(x_axisrd)
     # data rounded off so we can detect 'major' movement
-    # print x_axisrd, y_axisrd, z_axisrd
-    if x_axisrd != xlastval
-        print x_axisrd
-
-    xlastval = x_axisrd
+    print xdata
 # it's now showing a fairly long string
 sock.shutdown()
 sock.close()
