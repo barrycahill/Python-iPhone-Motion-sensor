@@ -23,12 +23,14 @@ while True:
     z_axis = struct.unpack('f', data[12:16])
     #data unpacked for the accelerometer
 
+    if "%.2f" % x_axis != x_axisrd:
+        print x_axis
     x_axisrd = "%.2f" % x_axis
     y_axisrd = "%.2f" % y_axis
     z_axisrd = "%.2f" % z_axis
     # data rounded off so we can detect 'major' movement
+    # print x_axisrd, y_axisrd, z_axisrd
 
-    print x_axisrd, y_axisrd, z_axisrd
 # it's now showing a fairly long string
 sock.shutdown()
 sock.close()
