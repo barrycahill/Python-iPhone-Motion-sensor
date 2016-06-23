@@ -3,6 +3,7 @@ __author__ = 'barrycahill'
 import socket
 import netifaces as ni
 import struct
+import datetime as dt
 
 ni.ifaddresses('en0')
 UDP_IP = ni.ifaddresses('en0')[2][0]['addr']
@@ -26,8 +27,7 @@ while len(xdata) < 10:
     # data rounded off so we can detect 'major' movement %.1f shows major / more minor movement detected with %.2f
     if x_axisrd != xdata[len(xdata)-1]:
         xdata.append(x_axisrd)
-        print 'Movement detected'
+        print 'Movement detected', dt.datetime.now()
 print xdata
 # it's now showing a fairly long string
-
 sock.close()
