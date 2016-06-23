@@ -22,10 +22,12 @@ while len(xdata) < 10:
     x_axis = struct.unpack('f', data[4:8])
     #data unpacked for the accelerometer
 
-    x_axisrd = "%.2f" % x_axis
-    xdata.append(x_axisrd)
-    # data rounded off so we can detect 'major' movement
-    print xdata
+    x_axisrd = "%.1f" % x_axis
+    # data rounded off so we can detect 'major' movement %.1f shows major / more minor movement detected with %.2f
+    if x_axisrd != xdata[len(xdata)-1]:
+        xdata.append(x_axisrd)
+        print 'Movement detected'
+print xdata
 # it's now showing a fairly long string
-sock.shutdown()
+
 sock.close()
