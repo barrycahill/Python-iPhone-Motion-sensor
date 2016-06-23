@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8e5687-d892-4c68-8718-ac5520ee0160" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dict_based_streamer.py" afterPath="$PROJECT_DIR$/dict_based_streamer.py" />
     </list>
     <ignored path="2015 streamer.iws" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/dict_based_streamer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <caret line="25" column="114" selection-start-line="25" selection-start-column="114" selection-end-line="25" selection-end-column="114" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
@@ -631,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/dict_based_streamer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <caret line="25" column="114" selection-start-line="25" selection-start-column="114" selection-end-line="25" selection-end-column="114" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
           </folding>
